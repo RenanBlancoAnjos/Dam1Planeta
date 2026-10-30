@@ -1,0 +1,123 @@
+#nombre-cientifico {
+    font-style: italic;       /* Deixa em itálico */
+    font-weight: bold;        /* Deixa em negrito */
+    text-decoration: underline; /* Deixa sublinhado */
+    color: black;             /* Mantém a cor preta */
+}
+
+#destaque-vermelho {
+    color: red;                /* Cor do texto em vermelho */
+    font-weight: bold;         /* Texto em negrito */
+    background-color: white;   /* Fundo branco */
+    text-decoration: none;     /* Remove o sublinhado padrao se for um link */
+    padding: 0 2px;            /* Pequeno espaco interno para o fundo nao colar na letra */
+}
+
+.titulodog {
+    font-family: "fonte nome dos cachorros";
+    src: 
+}
+
+#centralizar h1{
+    text-align: center;
+}
+
+@font-face {
+    font-family: "mifuente";
+    src: url(../fuentes/sigmar_one.woff);
+}
+
+#body{
+    margin: 20px;
+    padding: 0px;
+}
+#contenedor{
+    width: 845px;
+    height: 1150px;
+    margin: 0px auto;
+}
+    
+#contenido{
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    background-color:aqua
+}
+    
+#contenedor h1{
+    font-family: titulo;
+    text-align: center;
+    color: blueviolet;
+    margin: 0px;
+    line-height: 1.5en;
+    text-shadow: 5px -5px 5px;
+}
+
+#hr{
+    height: 3px;
+    border-color: none;
+    margin-bottom: 20px;
+    background-color: url(../img/violeta.png);
+}
+
+#yogi{
+    width: 100%;
+    background-color: white;
+    height: 150px;
+    overflow: auto;
+}
+
+#marco{
+    float:left;
+    padding: 5px;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#yogi p{
+    float: left;
+    width: 79%;
+    text-align: justify;
+    padding: 0px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.parrafo_1{
+    color: white;
+    border-style: dashed;
+    margin-left: 70px;
+    background-color: #f28226;
+    border-color: #FFFFFF;
+}
+
+.parrafo_2{
+    color: black;
+    background-image: url(../img/verde.png);
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 15px;
+
+}
+
+.parrafo_3{
+    color: black;
+    background-color: rgb(178, 63, 34);
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 15px;
+
+}
+    p[class^="parrafo"]{
+    width: 520px;
+    padding: 5px;
+    font-size: 1.6rem;
+}
+    
+
+span{
+    color: black;
+}

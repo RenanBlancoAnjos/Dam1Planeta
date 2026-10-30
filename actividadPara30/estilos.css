@@ -1,0 +1,179 @@
+
+#contenedor{
+    background-color: #e6f0fa;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 845px;
+    height: 1150px;
+    margin: 0px auto;
+}
+
+@font-face {
+    font-family: "mifuente";
+    src: url(../fuentes/sigmar_one.woff);
+}
+
+span{
+    color: black;
+}
+
+hr{
+    width: 60%;
+    height: 10px;
+    background-color: #89a4bc;
+    border: 1px solid #52718a;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+body {
+    background-color: #e6f0fa;
+}
+/*-------------------------------------*/
+
+#centralizar{
+    text-align: center;
+    font-family: "mifuente";
+    src: url(../fuentes/sigmar_one.woff);
+}
+
+/*-------------------------------------*/
+
+
+
+#nombre-cientifico {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+
+#destaque-vermelho {
+    color: red;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: none;
+    padding: 0 2px;
+}
+
+#destaque-azul {
+    color: #4b66ff;
+    background-color: #ffffff;
+    padding: 0 2px;
+    font-style: normal;
+}
+
+#nombresperros {
+    font-family: "mifuente";
+    src: url(../fuentes/sigmar_one.woff);
+    color: #57A3E6;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+
+/*-------------------------------------*/
+/*1 CACHORRO*/
+
+#nombresperros {
+    font-family: "mifuente";
+    src: url(../fuentes/sigmar_one.woff);
+    color: #57A3E6;
+}
+
+#bloco-racayork {
+
+    padding: 12px;
+    margin: 15px 0;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+
+#fotoyork{
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border: 1px solid #999999;
+    padding: 4px;
+    flex-shrink: 0;
+    border: 3px solid blue;
+    float: left;
+}
+
+#texto-racayork {
+    font-size: 13.5px;
+    line-height: 1.45;
+    color: #000000;
+    text-align: justify;
+}
+
+/*-------------------------------------*/
+/*2 CACHORRO*/
+
+#bloco-racadogo {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+#fotodogo {
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    padding: 4px;
+    flex-shrink: 0;
+    border: 3px solid blue;
+}
+
+
+#texto-racadogo {
+    font-size: 13.5px;
+    line-height: 1.45;
+    color: #000000;
+    text-align: justify;
+    flex: 1; 
+}
+
+/*-------------------------------------*/
+/*3 CACHORRO*/
+
+#bloco-ratonero {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+#texto-ratonero {
+    font-size: 13.5px;
+    line-height: 1.45;
+    color: #000000;
+    text-align: justify;
+    flex: 1;
+}
+
+#edicionfotoratonero {
+    background-color: white;
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #999999;
+    padding: 4px;
+    flex-shrink: 0;
+    border: 3px solid blue;
+}
+
+/*---------------------------------------/
+/* RODAPÉ */
+
+#rodape{
+    text-align: right;
+    font-weight: bolder;
+}
