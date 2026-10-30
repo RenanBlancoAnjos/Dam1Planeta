@@ -1,0 +1,31 @@
+n=int(input("dime un mes"))
+m=int(input("dime un dia"))
+
+z=((n*100)+m)
+
+if ((z>=101 and z<=119) or (z>=1222 and z<=1231)):
+    signo= ("capricornio")
+elif z>=120 and z<=218:
+    signo=("aquario")
+elif z>=219 and z<=320:
+    signo=("peixes")
+elif z>=321 and z<=419:
+    signo=("aries")
+elif z>=420 and z<=520:
+    signo=("touro")
+elif z>=521 and z<=620:
+    signo=("gemeos")
+elif z>=621 and z<=722:
+    signo=("cancer")
+elif z>=723 and z<=822:
+    signo=("leao")
+elif z>=823 and z<=922:
+    signo=("virgem")
+elif z>=923 and z<=1022:
+    signo=("libra")
+elif z>=1023 and z<=1121:
+    signo=("escorpiao")
+elif z>=1122 and z<=1221:
+    signo=("sagitario")
+
+print (signo)
